@@ -1,0 +1,14 @@
+1、从远程库克隆，我们现在github上新建一个远程库killsgit,
+勾选Initialize this repository with a README，这样GitHub会自动为我们创建一个README.md文件。
+创建完毕后，可以看到README.md文件
+2、然后就使用命令git clone git@github.com:shenyoujian/killsgit.git
+然后就发生错误Permission denied (publickey).
+
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+
+and the repository exists.
+3、http://blog.sina.com.cn/s/blog_6b706e15010199p1.html解决方案
+4、注意从远程库克隆下来不需要在本地新建文件夹和初始化本地仓库。只要你在
+github添加ssh就可以直接使用上面的命令直接克隆到本地。
