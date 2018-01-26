@@ -1,0 +1,7 @@
+分支branch，
+1、查看分支：git branch
+2、创建分支：git branch 分支名字
+3、切换分支：git checkout 分支名字
+4、创建+切换分支：git checkout -b 分支名字
+5、合并某分支到当前分支：git merge 分支名字
+6、删除分支：git branch -d 分支名字
