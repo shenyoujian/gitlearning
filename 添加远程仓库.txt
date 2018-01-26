@@ -1,0 +1,10 @@
+1、要关联一个远程库，我们这里选择github，在github新建一个仓库，然后在本地git bash
+输入命令git remote add origin git@github.com:shenyoujian/gitlearning.git
+其中，origin就是这个远程仓库的名字，我们也可以起其他的名字，但是origin见名思意。
+github.com是服务器名，这是我们选择github，当选择码云可以换成码云的服务器名字。
+shenyoujian是github账号，gitlearning就是github新建的仓库名。origin是本地的叫法，gitlearning是这个仓库在github上的名字。
+2、关联后，使用命令git push -u origin master第一次推送master分支的所有内容。这里origin就是本地给gitlearning起的名字。
+此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
+3、分布式版本系统的最大好处之一是在本地工作完全不需要考虑远程库的存在，也就是有没有联网都可以正常工作，
+而SVN在没有联网的时候是拒绝干活的！当有网络的时候，再把本地提交推送一下就完成了同步，真是太方便了！
+4、在推送之前你还是需要把新加的内容提交到本地仓库，在推送。
